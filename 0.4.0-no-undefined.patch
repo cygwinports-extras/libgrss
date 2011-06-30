@@ -1,0 +1,11 @@
+--- origsrc/libgrss-0.4.0/src/Makefile.am	2010-04-21 09:15:02.000000000 -0500
++++ src/libgrss-0.4.0/src/Makefile.am	2011-06-30 16:53:25.642110100 -0500
+@@ -8,7 +8,7 @@ INCLUDES = \
+ 	$(LIBGRSS_CFLAGS)           \
+ 	$(NULL)
+ 
+-LDADD = $(LIBGRSS_LT_LDFLAGS) -export-dynamic -rpath $(libdir)
++LDADD = $(LIBGRSS_LT_LDFLAGS) -export-dynamic -no-undefined -rpath $(libdir)
+ 
+ sources_private_h = \
+ 	feed-atom-handler.h        \

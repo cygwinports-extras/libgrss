@@ -1,0 +1,5 @@
+category: Gnome
+requires: libglib2.0_0 libsoup2.4_1 libxml2
+external-source: libgrss
+sdesc: "GNOME RSS/Atom feed management library (runtime)"
+ldesc: "LibGRSS is a GObject library for easy management of RSS/Atom/Pie feeds."

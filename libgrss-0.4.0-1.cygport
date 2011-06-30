@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GNOME RSS/Atom feed management library"
+HOMEPAGE="http://live.gnome.org/Libgrss"
+SRC_URI="http://gtk.mplat.es/libgrss/tarballs/${P}.tar.gz"
+PATCH_URI="0.4.0-no-undefined.patch"
+
+PKG_NAMES="libgrss1.0_0 libgrss1.0-devel"
+libgrss1_0_0_CONTENTS="usr/bin/cyggrss-1.0-0.dll usr/share/doc/"
+libgrss1_0_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"
