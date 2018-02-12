@@ -1,6 +1,11 @@
 inherit gnome2
 
-DESCRIPTION="GNOME RSS/Atom feed management library"
+NAME="libgrss"
+VERSION=0.4.0
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="GNOME RSS/Atom feed management library"
+DESCRIPTION="LibGRSS is a GObject library for easy management of RSS/Atom/Pie feeds."
 HOMEPAGE="http://live.gnome.org/Libgrss"
 SRC_URI="http://gtk.mplat.es/libgrss/tarballs/${P}.tar.gz"
 PATCH_URI="0.4.0-no-undefined.patch"
