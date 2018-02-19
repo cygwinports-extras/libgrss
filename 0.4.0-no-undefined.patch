@@ -4,8 +4,8 @@
  	$(LIBGRSS_CFLAGS)           \
  	$(NULL)
  
--LDADD = $(LIBGRSS_LT_LDFLAGS) -export-dynamic -rpath $(libdir)
-+LDADD = $(LIBGRSS_LT_LDFLAGS) -export-dynamic -no-undefined -rpath $(libdir)
+-LDADD = -export-dynamic -rpath $(libdir)
++LDADD = -export-dynamic -no-undefined -rpath $(libdir)
  
  sources_private_h = \
  	feed-atom-handler.h        \
